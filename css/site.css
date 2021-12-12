@@ -62,6 +62,30 @@ background:#efefef;
 .title-font{
   font-family: Helvetica, sans-serif;
 }
+.site-content{
+  margin-left: 5rem;
+  margin-right:5rem;
+  min-height: 25rem;
+}
+.album-mosaic{
+  margin-top:1.875rem;
+  margin-left: -0.3125rem;
+  margin-right:-0.3125rem;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-items:center;
+}
+.mosaic-item{
+  position:relative;
+  display:block;
+  margin-left: 0.3125rem;
+  margin-right: 0.3125rem;
+  margin-bottom: 0.625rem;
+}
+.mosaic-image{
+  width:900px;
+}
 body{
   font-family:'Work Sans', Helvetica, Arial, sans-serif;
   letter-spacing:1px;
