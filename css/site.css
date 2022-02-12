@@ -177,6 +177,7 @@ background:#efefef;
 }
 
 /*animation video section*/
+
 #ani-text{
   text-align:center;
   font-family: Work Sans;
@@ -193,6 +194,9 @@ hr{
 
 /*Slideshow*/
 * {box-sizing:border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -309,4 +313,40 @@ video {
 }
 .cow-img{
   margin-left:600px;
+}
+.cap-img {
+  margin-left:530px;
+}
+.sc-img{
+  margin-left:450px;
+}
+.water-img{
+  margin-left: 550px;
+}
+.pear-img{
+  margin-left:550px;
+}
+.jeep-img {
+  margin-left:550px;
+}
+
+/*about me page*/
+h1 {
+  margin-top:50px;
+  font-family:Work Sans;
+  text-align:center;
+
+}
+p{
+  font-family:arial;
+  text-align: justify;
+  margin-left:700px;
+  margin-right: 400px;
+  line-height: 30px;
+}
+
+#my-img {
+  width:300px;
+  margin-left:300px;
+  float:left;
 }
